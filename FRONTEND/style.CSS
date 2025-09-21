@@ -1,0 +1,194 @@
+/* Fonts & Base */
+body {
+  font-family: 'Poppins', sans-serif; 
+      background: #f9fbff;
+      color: #1e293b;
+  /* color: #333; */
+  
+  margin: 0;
+  padding: 0;
+}
+
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 230px;
+  background: #f8f9fa;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.sidebar-header {
+  text-align: center;
+}
+.sidebar-header h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.sidebar-header p {
+  font-size: 0.9rem;
+  color: #666;
+}
+.nav-link {
+  color: #333;
+  padding: 10px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+h1, h2, h3, h4, h5, h6 { font-family: 'Montserrat', sans-serif; }
+
+.nav-link:hover {
+  color: #007bff;
+}
+
+.nav-link.active {
+  color: #007bff;
+  font-weight: bold;
+  border-left: 3px solid #007bff;
+  padding-left: 12px;
+  background: rgba(0, 123, 255, 0.1);
+}
+
+
+
+.sidebar-footer {
+  text-align: center;
+}
+.sidebar-footer a {
+  color: #333;
+  margin: 0 8px;
+  font-size: 1.2rem;
+  transition: 0.3s;
+}
+.sidebar-footer a:hover {
+  color: #0d6efd;
+}
+
+/* Content */
+.content {
+  margin-left: 230px;
+  padding: 40px;
+}
+
+/* Sections */
+.section {
+ 
+  padding: 2rem;
+  margin: 1rem 0;
+  
+}
+#twinkle_img{
+  width: 650px;
+  height: 650px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.section h2 {
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 30px;
+  position: relative;
+}
+.section h2::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #0d6efd;
+  margin-top: 10px;
+}
+
+/* Hero */
+.hero {
+  min-height: 100vh;
+  text-align: center;
+}
+.hero h1 span {
+  color: #0d6efd;
+}
+.hero p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+/* Profile */
+
+.profile-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 5px solid #0d6efd;
+}
+
+/* Cards */
+.skill-card {
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+.skill-card:hover {
+  transform: translateY(-5px);
+}
+.project-card img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.project-card:hover {
+  transform: scale(1.02);
+  transition: 0.3s;
+}
+
+/* Timeline */
+.timeline {
+  list-style: none;
+  padding: 0;
+}
+.timeline li {
+  margin-bottom: 15px;
+}
+
+/* Contact Form */
+.contact-form {
+  max-width: 500px;
+  margin: auto;
+}
+/* Ensure project images have the same size */
+.project-card img {
+  height: 220px;           /* fixed height for all images */
+  object-fit: cover;       /* crops while keeping aspect ratio */
+  width: 100%;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+/* Make all cards the same height */
+.project-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card .card-body {
+  flex-grow: 1;           /* pushes content evenly */
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card .card-text {
+  flex-grow: 1;           /* fills remaining space so buttons align */
+}
+.modal-body {
+  font-family: "Poppins", sans-serif;
+}
+
+#modalTech li,
+#modalFeatures li {
+  margin-bottom: 6px;
+}
