@@ -31,28 +31,28 @@ document.addEventListener("DOMContentLoaded", () => {
   const projects = {
     1: {
       title: "Hybrid Visual-ML Framework",
-      img: "snip2.png",
+      img: "images/snip2.png",
       desc: "Developed a hybrid framework combining machine learning and visual analytics to classify neurodiverse learners using behavioral and educational data. The system identifies learning patterns, offers personalized support, and enhances inclusivity through AI-driven insights and intuitive visualization tools.",
       tech: "Python, Flask, ML Models, D3.js",
       features: ["Learner classification using ML", "Interactive data visualizations", "Personalized learning recommendations", "Real-time behavioral insights"]
     },
     2: {
       title: "Smart Task Manager",
-      img: "task.png",
+      img: "images/task.png",
       desc: "A full-stack task manager built with Express.js, EJS, and PostgreSQL. Includes ML for automatic task classification, dynamic category creation, progress tracking, and a clean UI.",
       tech: "Node.js, Express, EJS, PostgreSQL, ML",
       features: ["Automatic task categorization using ML", "Progress tracking", "Dynamic category creation", "Clean UI"]
     },
     3: {
       title: "Rain Predictor",
-      img: "rain.png",
+      img: "images/rain.png",
       desc: "A responsive weather website tested with Postman & APIs. Delivers quick yes/no answers with clean visuals for user-friendly weather forecasts.",
       tech: "Node.js, Express, EJS, Open-Meteo API",
       features: ["Tomorrow’s rain prediction", "Responsive design", "Clear visuals", "Fast-loading website"]
     },
     4: {
       title: "Amazon Clone",
-      img: "ama.jpg",
+      img: "images/ama.jpg",
       desc: "A static Amazon homepage clone using HTML & CSS. Includes responsive navbar, product grid, banner, and footer layout.",
       tech: "HTML, CSS, JavaScript",
       features: ["Responsive homepage layout", "Product display grid", "Navigation menu", "Hover effects on products"]
