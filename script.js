@@ -107,3 +107,13 @@ document.querySelectorAll(".nav-link").forEach((link) => {
     }
   });
 });
+
+
+document.addEventListener('DOMContentLoaded', () => {
+  const hamburger = document.getElementById('hamburger');
+  const sidebar = document.querySelector('.sidebar');
+
+  hamburger.addEventListener('click', () => {
+    sidebar.classList.toggle('active');
+  });
+});
